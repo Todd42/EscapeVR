@@ -1,0 +1,50 @@
+re-do glass panes (glitchy visuals currently)
+
+Make button_thing into some sort of vending machine
+	make it dispense some important item if all three buttons are pressed at once
+
+Finish TV
+	add lever joints to antenna
+	add some sort of number code behind static
+	make adjusting antenna lessen and clear static
+	Make power button actually function
+
+Make safe
+	make numpad on safe
+		make display on numpad that works
+	make safe door unlock with code
+
+General
+	make hands go 'skeletal' when forcibly pushed through solid objects
+	make it so player can't go through walls
+	make functioning lightswitch
+	add scenery outside
+	add random assortment of objects scattered around the room
+	make lock or numpad code panal for main door
+		make it 'unlock' main door
+	make an object to go on windowsill and complete forced perspective puzzle
+	make cellphone to stick under desk
+		maybe make wall phone to go with it
+	make billboard for forced perspective puzzle
+	BG sound
+	Misc sound effects for object interactions
+		button press
+		TV static
+		Phone ringing
+		light switch
+		TV on/off
+		Glass smashing
+		Button_thing dispensing
+		lock unlocking
+
+Puzzles
+	Buttons - dispenses key to some box(maybe desk drawer?)
+	TV - Reveals color bars in correct order
+	Billboard - color coded number for final code #1 & #4
+	Cellphone - has code to safe
+	Picture frame color tint - Color coded number for final code #2 & #6
+
+Containers
+	Desk drawer - Hammer to smash picture frame?
+	Safe - Color coded number for final code #3 & #5
+	
