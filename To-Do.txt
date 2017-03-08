@@ -48,3 +48,8 @@ Containers
 	Desk drawer - Hammer to smash picture frame?
 	Safe - Color coded number for final code #3 & #5
 	
+
+Stretch Goals
+	Randomization of all number codes for replayability
+	Alternate room setups (chosen before play via difficulty setting or something)
+		new puzzles for alt rooms
