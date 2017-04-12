@@ -18,12 +18,13 @@ public class StaticFade : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		ang = transform.eulerAngles.x - originalRotation;
-		thing.GetComponent<SpriteRenderer>().color = new Color(1f,1f,1f, 0.0f + Mathf.Abs((sweetSpot - ang)/80));
+		thing.GetComponent<SpriteRenderer> ().color = new Color (1f, 1f, 1f, 
+			0.0f + Mathf.Abs((sweetSpot - ang)/80)*2);
 	}
 
-	//public onCollisionEnter(){
-	//	ang = transform.eulerAngles.x - originalRotation;
-	//thing.GetComponent<SpriteRenderer>().color = new Color(1f,1f,1f, 0.0f + Mathf.Abs((sweetSpot - ang)/80));
-	//}
+	public void onCollision(){
+		//ang = transform.eulerAngles.x - originalRotation;
+		//thing.GetComponent<SpriteRenderer>().color = new Color(1f,1f,1f, 0.0f + Mathf.Abs((sweetSpot - ang)/80));
+	}
 
 }
