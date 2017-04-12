@@ -6,7 +6,7 @@ public class Unattach : MonoBehaviour {
 
 	private bool ring;
 
-	//public GameObject other;
+	public GameObject screen;
 	public GameObject lighty;
 
 	private int count;
@@ -36,7 +36,7 @@ public class Unattach : MonoBehaviour {
 		if(GetComponent<VRTK.VRTK_InteractableObject>().IsGrabbed()){
 			GetComponent<Rigidbody> ().useGravity = true;
 			ring = false;
-			//enable canvas with number on it for camera in camera here
+			screen.SetActive (true);
 		}
 
 	}
